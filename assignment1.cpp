@@ -111,7 +111,7 @@ int main() {
                     }
                     break;
                 case 5:
-                    delete[] arr;  // Clean up dynamically allocated memory
+                    delete[] arr; 
                     exit(0);
                 default:
                     cout << "Invalid choice\n";
